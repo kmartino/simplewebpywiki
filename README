@@ -1,0 +1,32 @@
+== simplewebpywiki.py
+
+An experiment with web.py to discover just how little code is neccessary to create a sample wiki-style
+app.
+
+This sample app is entirely derived from Toby Segaran's example who blogged about it here:
+
+http://blog.kiwitobes.com/?p=18 
+
+The major difference being that this uses pickle instead of Berkeley DB. That and I intend to check in some
+additions to it for fun. As he mentions in his blog post, this isn't intended to be a real effort at the best
+way to use web.py. It is a great starting point to investigate web.py however - so I wanted to share it along
+with my little tweak.
+
+== Getting Started
+
+1. Install Python pre-requisites:
+
+easy_install web.py
+
+easy_install markdown
+
+2. Startup simplewebwiki.py
+
+$ python simplewebwiki.py
+
+3. Visit http://localhost:8080/
+
+And that's it.
+
+== Have fun!
+
